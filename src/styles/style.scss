@@ -1,0 +1,13 @@
+@use 'variables';
+
+body {
+  font-family: "Raleway";
+}
+
+#root {
+  // background: variables.$primary-color;
+  background-position: center;
+  background-image: url("../images/bg-desktop.svg");
+  height: 500px;
+  color: white;
+}
