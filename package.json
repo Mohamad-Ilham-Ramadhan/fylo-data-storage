@@ -4,7 +4,8 @@
   "description": "Frontend challenge from frontendmentor.io",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",

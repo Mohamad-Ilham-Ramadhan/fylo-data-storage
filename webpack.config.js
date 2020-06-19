@@ -59,5 +59,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/index.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/index.html",
+      filename: path.resolve(__dirname) + "/index.html",
+    }),
   ],
 };
