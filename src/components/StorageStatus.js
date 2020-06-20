@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
 
 export default function StorageStatus() {
+  const refBar = useRef(null);
+  const [used, setUsed] = useState(815);
   const total = 1000;
-  let used = 815;
+  useEffect(() => {
+    refBar.current.style.width = `${(used * 100) / total}%`;
+  }, []);
   return (
     <div className="flex-item --storage-status">
       <div className="storage-status">
@@ -11,7 +15,7 @@ export default function StorageStatus() {
         </div>
         <div className="status">
           <div className="status-bar">
-            <div className="bar">
+            <div id="bar" className="bar" ref={refBar}>
               <div className="tip"></div>
             </div>
           </div>

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Mohamad-Ilham-Ramadhan/fylo-data-storage#readme",
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

@@ -1,0 +1,18 @@
+{
+  "name": "fylo-data-storage-component-master",
+  "description": "Frontend challenge from frontendmentor.io",
+  "main": "index.js",
+  "authors": [
+    "Mohamad Ilham Ramadhan"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Mohamad-Ilham-Ramadhan/fylo-data-storage",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
